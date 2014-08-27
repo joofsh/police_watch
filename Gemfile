@@ -28,6 +28,7 @@ gem 'spring',        group: :development
 # Use debugger
 group :development, :test do
   gem 'pry'
+  gem 'byebug'
   gem 'awesome_print'
   gem 'better_errors'
 end
