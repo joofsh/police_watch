@@ -2,3 +2,6 @@
   .row
     %h1 Police Watch
     %h4 Accountability for your local police
+    - @reports.each do |r|
+      %h3= r.description
+
